@@ -4,7 +4,6 @@ var currentSection = null;
 function init(){
     currentSection=$('#secInicio');
     //console.log(currentSection = $('#secInicio'));
-    $('#menu').click(desplegarMenu);
     $('#inicio').click(navegaInicio);
     $('#sobre-mi').click(navegaSobreMi);
     $('#habilidades').click(navegaHabilidades);
@@ -12,17 +11,8 @@ function init(){
     $('#contactame').click(naveContactame);
 }
 //navegar a seciones
-function desplegarMenu(){
-    $('#secInicio').hide(1000);
-    $('#sobreMi').hide(1000);
-    $('#secHabilidades').hide(1000);
-    $('#secProyectos').hide(1000);
-    $('#secContactame').hide(1000);
-   $('#menu-desplegar').show(1000);
-}
 function navegaInicio(){
-   $('#menu-desplegar').hide(1000);
-   $('#secInicio').show(1000);
+    gotoSection('secInicio');
 }
 function navegaSobreMi(){
     gotoSection('sobreMi');
