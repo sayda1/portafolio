@@ -1,51 +1,63 @@
 /*------------ESTILOS----DEFINIDOS----------DE-----SASS------*/
+$tama-imagen:50%;
+$letra-color:white;
+$altura-seciones:87%;
+$tamano-letra:40%;
 /*---------------------------ESTILOS GENERALES---------------*/
-img {
-  width: 50%; }
-
-section {
-  position: absolute;
-  width: 100%;
-  left: 0;
-  display: none;
-  height: 87%; }
-
-.visible {
-  display: block; }
-
+img{
+    width:$tama-imagen;
+}
+section{
+	position:absolute;
+	width:100%;
+	left:0;
+	display:none;
+    height:$altura-seciones;
+}
+.visible{
+	display:block;
+}
 /*--------------------------header-----menu-----------------*/
-header {
-  background: #000000; }
-  header .fa-bars {
-    color: white;
-    margin: 2%;
-    font-size: 40px; }
+header{
+    background:#000000;
+    .fa-bars{
+        color:$letra-color;
+        margin:2%;
+        font-size:40px;
+    }
+}
 
 /*-----------------------inicio---foto---------------------*/
-#secInicio {
-  background-image: url(../img/fondo.JPG);
-  background-position: center;
-  background-position: top;
-  background-size: cover;
-  color: #d5e0e3;
-  font-family: 'Ranga', cursive; }
-  #secInicio .sayda {
-    background: rgba(39, 38, 38, 0.43);
-    position: absolute;
-    width: 100%;
-    left: 0%;
-    top: 65%;
-    text-align: center; }
-  #secInicio h1 {
-    font-size: 100px; }
-  #secInicio h2 {
-    font-size: 50px; }
+#secInicio{
+    background-image:url(../img/fondo.JPG);
+    background-position:center;
+    background-position:top;
+    background-size:cover;
+    color:#d5e0e3;
+    font-family: 'Ranga', cursive;
+    .sayda{
+        background: rgba(39, 38, 38, 0.43);
+        position:absolute;
+        width:100%;
+        left:0%;
+        top:65%;
+        text-align:center;
+    }
+    
+    h1{
+       font-size:100px; 
+    }
+    h2{
+       font-size: 50px; 
+    }
+}
 
 /*----------------------menu---desplegable---------*/
-#menu-desplegar {
-  background: rgba(18, 16, 16, 0.78);
-  color: white; }
-
+#menu-desplegar{
+    background:rgba(18, 16, 16, 0.78); 
+    color:$letra-color;
+    
+}
 /*--------------------------------hover--de m
 #inicio{
     &:hover{
@@ -73,12 +85,12 @@ header {
     }
 }*/
 /*-----------------sobre-----mi-------------------------*/
-#sobreMi {
-  background-color: #ffc300; }
-
+#sobreMi{
+    background-color:#ffc300;
+}
 .cajaUno {
-  -webkit-transform: rotate(25deg); }
-
+    -webkit-transform:rotate(25deg); 
+}
 /*-----------------------habilidades-------------------
 #secHabilidades{
    background-color:#ff5733; 
@@ -92,5 +104,3 @@ header {
 #secContactame{
     background:#900c3f;
 }*/
-
-/*# sourceMappingURL=main.css.map */

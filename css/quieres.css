@@ -1,0 +1,9 @@
+@media (max-width:764px) and (min-width:319px){
+    section{
+        position:absolute;
+        width:100%;
+        left:0;
+        display:none;
+        height:90%;
+    }
+}
