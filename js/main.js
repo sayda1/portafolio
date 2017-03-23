@@ -1,9 +1,6 @@
 $(document).ready(init);
 
-var currentSection = null;
 function init(){
-    currentSection=$('#secInicio');
-    //console.log(currentSection = $('#secInicio'));
     $('#inicio').click(navegaInicio);
     $('#sobre-mi').click(navegaSobreMi);
     $('#habilidades').click(navegaHabilidades);
@@ -12,24 +9,39 @@ function init(){
 }
 //navegar a seciones
 function navegaInicio(){
-    gotoSection('secInicio');
+    
+    $('#secContactame').hide(1800);
+    $('#secProyectos').hide(1800);
+    $('#secHabilidades').hide(1800);
+    $('#sobreMi').hide(1800);
+    $('#secInicio').show(1800);
+    
 }
 function navegaSobreMi(){
-    gotoSection('sobreMi');
+    $('#secContactame').hide(1800);
+    $('#secProyectos').hide(1800);
+    $('#secHabilidades').hide(1800);
+    $('#secInicio').hide(1800);
+    $('#sobreMi').show(1850);
 }
 function navegaHabilidades(){
-    gotoSection('secHabilidades');
+    $('#secContactame').hide(1800);
+    $('#secProyectos').hide(1800);
+    $('#secHabilidades').show(1800);
+    $('#secInicio').hide(1800);
+    $('#sobreMi').hide(1850);
 }
 function navegaProyectos(){
-    gotoSection('secProyectos');
+    $('#secContactame').hide(1800);
+    $('#secProyectos').show(1800);
+    $('#secHabilidades').hide(1800);
+    $('#secInicio').hide(1800);
+    $('#sobreMi').hide(1850);
 }
 function naveContactame(){
-    gotoSection('secContactame');
-}
-function gotoSection(_identificadorDeSeccion) {
-	currentSection.removeClass('visible');
-	var nextSection = $('#' + _identificadorDeSeccion);
-
-	nextSection.addClass('visible');
-    console.log(nextSection);
+    $('#secContactame').show(1800);
+    $('#secProyectos').hide(1800);
+    $('#secHabilidades').hide(1800);
+    $('#secInicio').hide(1800);
+    $('#sobreMi').hide(1850);
 }
