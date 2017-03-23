@@ -12,7 +12,7 @@ img{
     width:$tama-imagen;
 }
 section{
-    background:black;
+    background:white;
 	position:absolute;
 	width:100%;
 	left:0;
@@ -73,33 +73,47 @@ section{
 
 /*-----------------sobre-----mi-------------------------*/
 #sobreMi{
-    background:#EBC7A8;
-    font-family:$tipo-letra;
+   background: url(../img/pink_rice.png);
     color:$letra-color;
-    h1{
-        font-size:$tamano-letra;
-    }
-    p{
-       font-size:$tamano-letra  - 50px; 
-        font-family:$segunda-letra;
+    .cajaTodo{
+        position: absolute;
+        top:24%;
+        left:0%;
+        right:0%;
+        color:#de6349;
     }
     .cajaDos{
-        background:rgba(52, 50, 50, 0.65);
+        background-image:url(../img/perfil.png);
+        background-position:top;
+        background-size:100%;
         margin: auto;
-        border-radius: 200px;
-        width:50%;
+        border-radius: 300px;
+        width:60%;
+        height:280px;
+        box-shadow: 3px 2px 2px 2px #a08d7f;
     }
-    .cajaDos img{
-        box-shadow:1px 1px 1px #2e2b2b;
-        background: red;
-        border-radius: 200px;
-        width: $ancho-seciones;
+    .opacado{
+        background: rgba(18, 18, 18, 0.29);
+        margin: auto;
+        border-radius: 250px;
+        width:100%;
+        height:280px;
+    }
+    h1{
+        font-size:$tamano-letra;
+        font-family: $segunda-letra;
+        color: #d65e45;
+    }
+    p{
+        font-size:$tamano-letra  - 55px; 
+        font-family:$segunda-letra; 
     }
 }
 
 /*-----------------------habilidades-------------------*/
 #secHabilidades{
-   background-color:#ff5733; 
+   background-color:#312d2c; 
+    
 }
 /*----------------------proyectos-----------------------
 #secProyectos{
