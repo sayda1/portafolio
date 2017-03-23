@@ -57,18 +57,26 @@ section {
 
 /*-----------------sobre-----mi-------------------------*/
 #sobreMi {
-  color: coral; }
-  #sobreMi img {
-    border-radius: 30px;
-    width: 60%;
-    height: 280px;
-    box-shadow: 3px 2px 2px 2px #a08d7f; }
+  color: #86675c;
+  position: absolute;
+  background-size: auto;
+  background-image: url(../img/symphony.png);
+  padding: 19% 0%; }
+  #sobreMi .imagen {
+    border-radius: 100%;
+    width: 300px;
+    box-shadow: 3px 2px 2px 2px #9d967a;
+    opacity: 0.9; }
+  #sobreMi .imagen:hover {
+    transform: scale(1.2);
+    transition: all 250ms ease-in-out;
+    opacity: none; }
   #sobreMi h1 {
     font-size: 80px;
     font-family: "roboto";
     color: #d65e45; }
   #sobreMi p {
-    font-size: 80px -55px;
+    font-size: 25px;
     font-family: 'Roboto+Slab'; }
 
 /*-----------------------habilidades-------------------*/
