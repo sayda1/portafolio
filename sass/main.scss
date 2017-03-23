@@ -73,40 +73,22 @@ section{
 
 /*-----------------sobre-----mi-------------------------*/
 #sobreMi{
-   background: url(../img/pink_rice.png);
-    color:$letra-color;
-    .cajaTodo{
-        position: absolute;
-        top:24%;
-        left:0%;
-        right:0%;
-        color:#de6349;
-    }
-    .cajaDos{
-        background-image:url(../img/perfil.png);
-        background-position:top;
-        background-size:100%;
-        margin: auto;
-        border-radius: 300px;
+    color:coral;
+    img{
+        border-radius: 30px;
         width:60%;
         height:280px;
         box-shadow: 3px 2px 2px 2px #a08d7f;
     }
-    .opacado{
-        background: rgba(18, 18, 18, 0.29);
-        margin: auto;
-        border-radius: 250px;
-        width:100%;
-        height:280px;
-    }
+    
     h1{
         font-size:$tamano-letra;
         font-family: $segunda-letra;
         color: #d65e45;
     }
     p{
-        font-size:$tamano-letra  - 55px; 
-        font-family:$segunda-letra; 
+        font-size:$tamano-letra -55px; 
+        font-family:'Roboto+Slab'; 
     }
 }
 
