@@ -1,10 +1,8 @@
 /*------------ESTILOS----DEFINIDOS----------DE-----SASS------*/
+/*---------------------------MIXINS---------------*/
 /*---------------------------ESTILOS GENERALES---------------*/
 * {
   outline: 1px solid blue; }
-
-img {
-  width: 50%; }
 
 section {
   background: white;
@@ -89,65 +87,91 @@ section {
   background: url(../img/eight_horns.png);
   text-align: center;
   color: white;
-  padding: 3% 0%; }
+  padding: 5% 0%; }
   #secHabilidades h1 {
     font-size: 50px;
     font-family: "roboto";
     color: #d65e45; }
-  #secHabilidades img {
-    width: 100%;
-    height: 160px; }
   #secHabilidades .html {
     border-radius: 100%;
-    border: 2px solid #f2713b;
-    margin: auto;
-    width: 60%;
-    height: auto;
-    padding: 20px; }
+    margin: 0 auto;
+    padding: 20px;
+    width: 50%;
+    border: 2px solid #f2713b; }
+    #secHabilidades .html img {
+      max-height: 120px;
+      max-width: 100%; }
   #secHabilidades .css {
     border-radius: 100%;
-    border: 2px solid #29a9df;
-    margin: auto;
-    width: 60%;
-    height: auto;
-    padding: 20px; }
+    margin: 0 auto;
+    padding: 20px;
+    width: 50%;
+    border: 2px solid #29a9df; }
+    #secHabilidades .css img {
+      max-height: 120px;
+      max-width: 100%; }
   #secHabilidades .bostrap {
     border-radius: 100%;
-    border: 2px solid #431d51;
-    margin: auto;
-    width: 60%;
-    height: auto;
-    padding: 20px; }
+    margin: 0 auto;
+    padding: 20px;
+    width: 50%;
+    border: 2px solid #431d51; }
     #secHabilidades .bostrap img {
-      width: 70%; }
+      max-height: 120px;
+      max-width: 100%; }
   #secHabilidades .java {
     border-radius: 100%;
-    border: 2px solid #dab92d;
-    margin: auto;
-    width: 60%;
-    height: auto;
-    padding: 20px; }
+    margin: 0 auto;
+    padding: 20px;
+    width: 50%;
+    border: 2px solid #dab92d; }
+    #secHabilidades .java img {
+      max-height: 120px;
+      max-width: 100%; }
   #secHabilidades .jquery {
     border-radius: 100%;
-    border: 2px solid #1879ac;
-    margin: auto;
-    width: 60%;
-    height: auto;
-    padding: 20px; }
+    margin: 0 auto;
+    padding: 20px;
+    width: 50%;
+    border: 2px solid #1879ac; }
+    #secHabilidades .jquery img {
+      max-height: 120px;
+      max-width: 100%; }
+    #secHabilidades .jquery .jqueryImg {
+      max-height: 120px;
+      max-width: 100%; }
   #secHabilidades .sass {
     border-radius: 100%;
-    border: 2px solid #cd679a;
-    margin: auto;
+    margin: 0 auto;
+    padding: 20px;
+    width: 50%;
+    border: 2px solid #cd679a; }
+    #secHabilidades .sass img {
+      max-height: 120px;
+      max-width: 100%; }
+  #secHabilidades .nivelProgreso {
     width: 60%;
-    height: auto;
-    padding: 20px; }
+    height: 10px;
+    position: relative;
+    background-color: rgba(255, 255, 255, 0.55);
+    border-radius: 50px;
+    margin: auto; }
+  #secHabilidades .cantidad {
+    width: 80%;
+    height: 10px;
+    position: absolute;
+    border-radius: 100px; }
 
-/*----------------------proyectos-----------------------
-#secProyectos{
-    background:#c70039;
-}
+/*----------------------proyectos-----------------------*/
+#secProyectos {
+  background: url(../img/tex2res4.png);
+  text-align: center;
+  padding: 10% 0%; }
+  #secProyectos img {
+    width: 50%;
+    height: 200px; }
 
-----------------------contactame-------------------
+/*----------------------contactame-------------------
 #secContactame{
     background:#900c3f;
 }*/

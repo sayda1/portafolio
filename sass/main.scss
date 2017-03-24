@@ -9,13 +9,24 @@ $letra-color:white;
 $hover-a:#e01e1e;
 $pading:10px;
 $border-radius:100%;
+/*---------------------------MIXINS---------------*/
+@mixin border{
+    border-radius:$border-radius;
+    margin:0 auto;
+    padding: 20px;
+    width: 50%;
+    
+    img{
+        max-height: 120px;
+        max-width: 100%; 
+    }
+    
+}
 /*---------------------------ESTILOS GENERALES---------------*/
 *{
     outline: 1px solid blue;
 }
-img{
-    width:$tama-imagen;
-}
+
 section{
     background:white;
 	position:absolute;
@@ -113,74 +124,68 @@ section{
    background:url(../img/eight_horns.png); 
     text-align: center;
     color: white;
-    padding: 3% 0%;
+    padding: 5% 0%;
     h1{
         font-size:$tamano-letra - 30;
         font-family:$segunda-letra;
         color: #d65e45;
     }
-    img{
-        width: 100%;
-        height:160px;
-    }
     .html{
-        border-radius:$border-radius;
-        border:2px solid #f2713b ;
-        margin:auto;
-        width: 60%;
-        height:auto;
-        padding: $pading +10px;
+        @include border;
+        border:2px solid #f2713b;
     }
     .css{
-       border-radius:$border-radius;
-        border:2px solid #29a9df ;
-        margin:auto;
-        width: 60%;
-        height:auto;
-        padding: $pading +10px; 
+        @include border;
+        border:2px solid #29a9df ; 
     }
     .bostrap{
-       border-radius:$border-radius;
-        border:2px solid #431d51 ;
-        margin:auto;
-        width: 60%;
-        height:auto;
-        padding: $pading +10px; 
-        img{
-            width: 70%;
-        }
+        @include border;
+        border:2px solid #431d51 ;  
     }
     .java{
-        border-radius:$border-radius;
+        @include border;
         border:2px solid #dab92d ;
-        margin:auto;
-        width: 60%;
-        height:auto;
-        padding: $pading +10px;
     }
     .jquery{
-        border-radius:$border-radius;
+        @include border;
         border:2px solid #1879ac ;
-        margin:auto;
-        width: 60%;
-        height:auto;
-        padding: $pading +10px;
+        .jqueryImg{
+            max-height: 120px;
+           max-width: 100%; 
+        }
     }
     .sass{
-       border-radius:$border-radius;
-        border:2px solid #cd679a ;
-        margin:auto;
-        width: 60%;
-        height:auto;
-        padding: $pading +10px; 
+        @include border;
+        border:2px solid #cd679a; 
+    }
+    
+  .nivelProgreso{
+       width: 60%;
+       height: 10px;
+       position: relative;
+       background-color: rgba(255, 255, 255, 0.55);
+       border-radius: 50px;
+       margin: auto;
+   }
+   .cantidad{
+       width:80%;
+       height: 10px;
+       position: absolute;
+       border-radius: 100px;
+   }
+}
+/*----------------------proyectos-----------------------*/
+#secProyectos{
+    background:url(../img/tex2res4.png);
+    text-align: center;
+    padding: 10% 0%;
+    img{
+        width: 50%;
+        height: 200px;
     }
 }
-/*----------------------proyectos-----------------------
-#secProyectos{
-    background:#c70039;
-}
 
-----------------------contactame-------------------
+/*----------------------contactame-------------------
 #secContactame{
     background:#900c3f;
 }*/
