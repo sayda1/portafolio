@@ -68,6 +68,10 @@ section{
             background:$hover-a;
         }    
     }
+    .navbar-toggle{
+        color: #ffffff;
+        border: 1px solid #ffffff;
+    }
 }
 /*-----------------------inicio---foto---------------------*/
 #secInicio{
@@ -132,26 +136,18 @@ section{
     padding: 5% 0%;
     h1{
         @include titulo;
-        color: #f2713b;
+        color: #76aee6;
     }
     .habilidad{
        @include border;
-       border:2px solid #f2713b; 
+       border:2px solid #76aee6; 
     }
-    
-  .nivelProgreso{
-       width: 60%;
-       position: relative;
-       background-color: rgba(255, 255, 255, 0.55);
-       border-radius: 50px;
-      
-   }
-   .cantidad{
-       width:80%;
-       height: 10px;
-       position: absolute;
-       border-radius: 100px;
-   }
+    .progress{
+        border: 1px solid #76aee6;
+    }
+    .sass{
+        margin-top: 20px;
+    }
 }
 /*----------------------proyectos-----------------------*/
 #secProyectos{

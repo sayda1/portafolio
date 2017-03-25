@@ -18,8 +18,10 @@
     //SECCION DE SOBRE MI
     #sobreMi{
         padding: 20% 0%;
+        height: auto;
         .imagen{
-            display: none;
+            width:166px;
+            top: 0;
         }
         h1{
             font-size:52px;
@@ -28,7 +30,42 @@
             font-size:19px; 
         }
     } 
+    //SECTION HABILIDADES 
+    #secHabilidades {
+        padding: 17% 0%;
+        h1{
+            font-size:52px;
+        }
+        .habilidad{
+            width: 66%;
+        }
+        .habilidad img {
+            max-height: 41px;
+        }
+        .sass{
+            margin-top: 0;
+        }
+    }
+    //PROYECTOS
+    #secProyectos{
+        padding: 13% 0%;
+        height: auto;
+        h1{
+            font-size: 45px;
+        }
+    }
+    //CONTACTAME 
+    #secContactame {
+        h1{
+            font-size: 45px;
+        }
+        .fondoContactame{
+            width: 40%;
+            margin: 11px auto;
+        }
+    }
 }
+//PHONE 5
 @media (max-width:568px) and (min-width:320px){
     #secInicio .sayda {
         @include sayda;
@@ -37,24 +74,57 @@
             font-size:56px;
         }
     }
-        //SECCION DE SOBRE MI
+    //SECCION DE SOBRE MI
     #sobreMi{
         padding:15% 0%;
-        .imagen{
-            display: none;
-        }
+        height:auto;
         h1{
             font-size:45px;
         }
-        p{
-            font-size:15px; 
-        }
     } 
+    //SECTION HABILIDADES 
+    #secHabilidades {
+        padding: 15% 0%;
+        h1{
+            font-size:42px;
+        }
+        .progress{
+            margin-bottom: 16px;
+        }
+    }
 }
 //CELULARES--------------PAD------
 @media (max-width:1024px) and (min-width:764px){
     #secInicio .sayda {
         @include sayda;
         top:60%;
+    }
+    //SECCION DE SOBRE MI
+    #sobreMi{
+        padding:18% 0%;
+        .imagen{
+            margin-right:50px;
+        }
+        .col-md-6{
+            text-align: center;
+        }
+    }
+    //HABILIDADES
+    #secHabilidades {
+        .sass{
+            margin-top:30px;
+        }
+    }
+    //PROYECTOS 
+    #secProyectos{
+        height: auto;
+    }
+   //CONTACTAME 
+    #secContactame {
+        .fondoContactame{
+            width: 43%;
+            margin: 23px auto;
+            text-align: center;
+        }
     }
 }

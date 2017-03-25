@@ -33,6 +33,9 @@ section {
     font-size: 15px; }
     .navbar .nav li a:hover, .navbar .nav li a:focus {
       background: #e01e1e; }
+  .navbar .navbar-toggle {
+    color: #ffffff;
+    border: 1px solid #ffffff; }
 
 /*-----------------------inicio---foto---------------------*/
 #secInicio {
@@ -89,26 +92,20 @@ section {
   #secHabilidades h1 {
     font-size: 80px;
     font-family: 'Julius Sans One', sans-serif;
-    color: #f2713b; }
+    color: #76aee6; }
   #secHabilidades .habilidad {
     border-radius: 100%;
     margin: 0 auto;
     padding: 20px;
     width: 50%;
-    border: 2px solid #f2713b; }
+    border: 2px solid #76aee6; }
     #secHabilidades .habilidad img {
       max-height: 120px;
       max-width: 100%; }
-  #secHabilidades .nivelProgreso {
-    width: 60%;
-    position: relative;
-    background-color: rgba(255, 255, 255, 0.55);
-    border-radius: 50px; }
-  #secHabilidades .cantidad {
-    width: 80%;
-    height: 10px;
-    position: absolute;
-    border-radius: 100px; }
+  #secHabilidades .progress {
+    border: 1px solid #76aee6; }
+  #secHabilidades .sass {
+    margin-top: 20px; }
 
 /*----------------------proyectos-----------------------*/
 #secProyectos {
