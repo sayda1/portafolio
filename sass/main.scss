@@ -135,38 +135,13 @@ section{
         @include titulo;
         color: #f2713b;
     }
-    .html{
-        @include border;
-        border:2px solid #f2713b;
-    }
-    .css{
-        @include border;
-        border:2px solid #29a9df ; 
-    }
-    .bostrap{
-        @include border;
-        border:2px solid #431d51 ;  
-    }
-    .java{
-        @include border;
-        border:2px solid #dab92d ;
-    }
-    .jquery{
-        @include border;
-        border:2px solid #1879ac ;
-        .jqueryImg{
-            max-height: 120px;
-           max-width: 100%; 
-        }
-    }
-    .sass{
-        @include border;
-        border:2px solid #cd679a; 
+    .habilidad{
+       @include border;
+       border:2px solid #f2713b; 
     }
     
   .nivelProgreso{
        width: 60%;
-      
        position: relative;
        background-color: rgba(255, 255, 255, 0.55);
        border-radius: 50px;

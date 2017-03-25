@@ -91,61 +91,13 @@ section {
     font-size: 80px;
     font-family: 'Julius Sans One', sans-serif;
     color: #f2713b; }
-  #secHabilidades .html {
+  #secHabilidades .habilidad {
     border-radius: 100%;
     margin: 0 auto;
     padding: 20px;
     width: 50%;
     border: 2px solid #f2713b; }
-    #secHabilidades .html img {
-      max-height: 120px;
-      max-width: 100%; }
-  #secHabilidades .css {
-    border-radius: 100%;
-    margin: 0 auto;
-    padding: 20px;
-    width: 50%;
-    border: 2px solid #29a9df; }
-    #secHabilidades .css img {
-      max-height: 120px;
-      max-width: 100%; }
-  #secHabilidades .bostrap {
-    border-radius: 100%;
-    margin: 0 auto;
-    padding: 20px;
-    width: 50%;
-    border: 2px solid #431d51; }
-    #secHabilidades .bostrap img {
-      max-height: 120px;
-      max-width: 100%; }
-  #secHabilidades .java {
-    border-radius: 100%;
-    margin: 0 auto;
-    padding: 20px;
-    width: 50%;
-    border: 2px solid #dab92d; }
-    #secHabilidades .java img {
-      max-height: 120px;
-      max-width: 100%; }
-  #secHabilidades .jquery {
-    border-radius: 100%;
-    margin: 0 auto;
-    padding: 20px;
-    width: 50%;
-    border: 2px solid #1879ac; }
-    #secHabilidades .jquery img {
-      max-height: 120px;
-      max-width: 100%; }
-    #secHabilidades .jquery .jqueryImg {
-      max-height: 120px;
-      max-width: 100%; }
-  #secHabilidades .sass {
-    border-radius: 100%;
-    margin: 0 auto;
-    padding: 20px;
-    width: 50%;
-    border: 2px solid #cd679a; }
-    #secHabilidades .sass img {
+    #secHabilidades .habilidad img {
       max-height: 120px;
       max-width: 100%; }
   #secHabilidades .nivelProgreso {

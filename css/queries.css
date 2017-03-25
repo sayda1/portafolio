@@ -1,3 +1,30 @@
-
+@media (max-width: 764px) and (min-width: 319px) {
+  #secInicio .sayda {
+    background: rgba(10, 10, 10, 0.51);
+    position: absolute;
+    text-align: center;
+    width: 95%;
+    right: 2%;
+    top: 60%; }
+    #secInicio .sayda h1 {
+      font-size: 64px; } }
+@media (max-width: 568px) and (min-width: 320px) {
+  #secInicio .sayda {
+    background: rgba(10, 10, 10, 0.51);
+    position: absolute;
+    text-align: center;
+    width: 95%;
+    right: 2%;
+    top: 53%; }
+    #secInicio .sayda h1 {
+      font-size: 56px; } }
+@media (max-width: 1366px) and (min-width: 764px) {
+  #secInicio .sayda {
+    background: rgba(10, 10, 10, 0.51);
+    position: absolute;
+    text-align: center;
+    width: 95%;
+    right: 2%;
+    top: 60%; } }
 
 /*# sourceMappingURL=queries.css.map */
