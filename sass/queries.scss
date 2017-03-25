@@ -7,6 +7,7 @@
     right:2%;
 }
 @media (max-width:764px) and (min-width:319px){
+    //SECION DE INICIO
     #secInicio .sayda {
         @include sayda;
         top:60%;
@@ -14,6 +15,19 @@
             font-size:64px;
         }
     }
+    //SECCION DE SOBRE MI
+    #sobreMi{
+        padding: 20% 0%;
+        .imagen{
+            display: none;
+        }
+        h1{
+            font-size:52px;
+        }
+        p{
+            font-size:19px; 
+        }
+    } 
 }
 @media (max-width:568px) and (min-width:320px){
     #secInicio .sayda {
@@ -23,9 +37,22 @@
             font-size:56px;
         }
     }
+        //SECCION DE SOBRE MI
+    #sobreMi{
+        padding:15% 0%;
+        .imagen{
+            display: none;
+        }
+        h1{
+            font-size:45px;
+        }
+        p{
+            font-size:15px; 
+        }
+    } 
 }
 //CELULARES--------------PAD------
-@media (max-width:1366px) and (min-width:764px){
+@media (max-width:1024px) and (min-width:764px){
     #secInicio .sayda {
         @include sayda;
         top:60%;

@@ -57,9 +57,8 @@ section {
 #sobreMi {
   color: #86675c;
   position: absolute;
-  background-size: auto;
   background-image: url(../img/symphony.png);
-  padding: 13% 0%; }
+  padding: 8% 0%; }
   #sobreMi .imagen {
     border-radius: 100%;
     width: 300px;
