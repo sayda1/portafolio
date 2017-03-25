@@ -10,6 +10,7 @@
     <link href="https://fonts.googleapis.com/css?family=Roboto+Slab" rel="stylesheet"> 
     <link href="https://fonts.googleapis.com/css?family=Pacifico|Roboto+Slab" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Pacifico|Ubuntu|Ubuntu+Condensed" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Josefin+Sans|Julius+Sans+One|Poiret+One" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Pacifico|Ranga|Ubuntu|Ubuntu+Condensed" rel="stylesheet">
     <!-----------estilos----------------------->
      <link rel="stylesheet" href="css/main.css">
@@ -75,7 +76,7 @@
     <section id="secHabilidades">
         <div class="">
             <div class="container">
-                <h1>Habilidades</h1>
+               <h1>Habilidades</h1>
             <br>
                 <div class="row">
                     <div class="col-xs-4">
@@ -83,8 +84,8 @@
                            <img src="img/html5.png" alt="">
                        </div>
                          <br>   
-                        <div class="nivelProgreso">
-                         <div class="cantidad" style=" background-color:#f2713b"></div>
+                        <div class="progress">
+                         <div class="progress-bar progress-bar-striped active"  aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style=" background-color:#f2713b ; width:100%;">100%</div>
                         </div>
                     </div>
                     <div class="col-xs-4">
@@ -92,8 +93,8 @@
                           <img src="img/CSS3.png" alt=""> 
                        </div>
                        <br>
-                        <div class="nivelProgreso">
-                            <div class="cantidad" style=" background-color:#29a9df"></div>
+                        <div class="progress">
+                         <div class="progress-bar progress-bar-striped active"  aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style=" background-color:#29a9df ; width:90%;">90%</div>
                         </div>
                     </div>
                     <div class="col-xs-4">
@@ -101,8 +102,8 @@
                            <img src="img/javascript.png" alt="">
                        </div>                         
                         <br>
-                        <div class="nivelProgreso">
-                            <div class="cantidad" style="background:#dab92d;"></div>
+                        <div class="progress">
+                         <div class="progress-bar progress-bar-striped active"  aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style=" background-color:#dab92d ; width:70%;">70%</div>
                         </div>
                     </div>
                 </div>
@@ -112,29 +113,28 @@
                        <div class="bostrap">
                            <img src="img/bootstrap.png" alt="">
                        </div>
-                       <br>                        
-                        <div class="nivelProgreso">
-                         <div class="cantidad" style="background:#431d51"></div>
-                        </div>
-                       
+                       <br> 
+                       <div class="progress">
+                         <div class="progress-bar progress-bar-striped active"  aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style=" background-color:#431d51 ; width:90%;">90%</div>
+                        </div>                       
                     </div>
                     <div class="col-xs-4">
                        <div class="jquery">
                             <img src="img/jquery-logo.png" alt="jquery" class="jqueryImg">
                        </div>                       
                         <br>
-                        <div class="nivelProgreso">
-                        <div class="cantidad" style="background:#1879ac"></div>
+                        <div class="progress">
+                         <div class="progress-bar progress-bar-striped active"  aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style=" background-color:#29a9df ; width:70%;">70%</div>
                         </div>
                     </div>
                      <div class="col-xs-4">
                        <div class="sass">
                            <img src="img/sass.png" alt="sass">
                        </div>
-                       <br>                        
-                        <div class="nivelProgreso">
-                            <div class="cantidad" style="background:#cd679a;"></div>
-                        </div>
+                       <br>
+                       <div class="progress">
+                        <div class="progress-bar progress-bar-striped active"  aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style=" background-color:#cd679a ; width:70%;">70%</div>      
+                        </div>                        
                     </div>
                 </div>
             </div>
@@ -144,26 +144,43 @@
     <section id="secProyectos">
         <div class="">
             <div class="container">
-               <h1>Proyectos</h1>
+               <h1 class="text-center">Proyectos</h1>
                 <div class="row">
-                    <div class="col-xs-4">
-                        <img src="img/WhatsApp.png" alt="">
+                    <div class="col-md-4">
+                       <div class="fondoImg">
+                            <img src="img/Sin%20t%C3%ADtulo.png" alt="">
+                       </div>
+                       
                     </div>
-                    <div class="col-xs-4">
-                        <img src="img/app.png" alt="">
-                    </div>
-                    <div class="col-xs-4">
-                       <img src="img/gato.png" alt="">
+                    <div class="col-md-4">
+                       <div class="fondoImg">
+                           <img src="img/appTodo.png" alt="">
+                       </div>
                         
+                    </div>
+                    <div class="col-md-4">
+                      <div class="fondoImg">
+                          <img src="img/gato.png" alt="">                        
+                      </div>
+                       
                     </div>
                 </div>
                 <br>
                 <div class="row">
-                    <div class="col-xs-6">
-                       <img src="img/buny.png" alt=""> 
+                   <div class="col-md-4">
+                       <div class="fondoImg">
+                           <img src="img/lif.png" alt="">
+                       </div>
+                   </div>
+                    <div class="col-md-4">
+                        <div class="fondoImg">
+                          <img src="img/buny2.png" alt="">   
+                        </div>                       
                     </div>
-                    <div class="col-xs-6">
-                        <img src="img/flores.png" alt="">
+                    <div class="col-md-4">
+                       <div class="fondoImg">
+                           <img src="img/flores.png" alt="">
+                       </div>                        
                     </div>
                 </div>
             </div>
@@ -171,18 +188,34 @@
     </section>
     <!----------------------------------CONTACTAME--------------------> 
     <section id="secContactame">
-        <div class="content">
+        <div class="">          
             <div class="container">
-              <h1>Contactame</h1>
-               <div class="col-xs-4">
-                   <img src="img/gmail.png" alt="">
+             <h1 class="text-center">Contactame</h1>
+              <div class="row">
+                  
+                  <div class="col-md-4">
+                  <div class="fondoContactame">
+                      <a href="">
+                           <img src="img/mail.png" alt="" style="width:90%">
+                      </a>
+                  </div>                  
                </div>
-               <div class="col-xs-4">
-                   <img src="img/linkedin.png" alt="">
+               <div class="col-md-4">
+                  <div class="fondoContactame">
+                       <a href="">
+                           <img src="img/linkedin.png" alt="" style="width:100px">
+                       </a>                        
+                  </div>
                </div>
-               <div class="col-xs-4">
-                   <img src="img/github.png" alt="">
+               <div class="col-md-4">
+                    <div class="fondoContactame">
+                       <a href="">
+                            <img src="img/github.png" alt="">
+                       </a>
+                    </div>
                </div>
+              </div>
+               
             </div>
         </div>
     </section>   

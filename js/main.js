@@ -9,7 +9,6 @@ function init(){
 }
 //navegar a seciones
 function navegaInicio(){
-    
     $('#secContactame').hide(1800);
     $('#secProyectos').hide(1800);
     $('#secHabilidades').hide(1800);

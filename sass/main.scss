@@ -22,10 +22,15 @@ $border-radius:100%;
     }
     
 }
-/*---------------------------ESTILOS GENERALES---------------*/
-*{
-    outline: 1px solid blue;
+@mixin titulo{
+    font-size: $tamano-letra;
+    font-family: 'Julius Sans One', sans-serif;;
 }
+@mixin parrafo{
+    font-size: $tamano-letra - 60px;
+    font-family:'Roboto+Slab';
+}
+/*---------------------------ESTILOS GENERALES---------------*/
 
 section{
     background:white;
@@ -109,26 +114,26 @@ section{
         
     }
     h1{
-        font-size:$tamano-letra;
-        font-family: $segunda-letra;
+        @include titulo;
         color: #d65e45;
     }
     p{
-        font-size:20px; 
-        font-family:'Roboto+Slab'; 
+        @include parrafo;
+    }
+    span{
+        color: #d65e45;
     }
 }
 
 /*-----------------------habilidades-------------------*/
 #secHabilidades{
-   background:url(../img/eight_horns.png); 
+    background:url(../img/eight_horns.png); 
     text-align: center;
     color: white;
     padding: 5% 0%;
     h1{
-        font-size:$tamano-letra - 30;
-        font-family:$segunda-letra;
-        color: #d65e45;
+        @include titulo;
+        color: #f2713b;
     }
     .html{
         @include border;
@@ -161,11 +166,11 @@ section{
     
   .nivelProgreso{
        width: 60%;
-       height: 10px;
+      
        position: relative;
        background-color: rgba(255, 255, 255, 0.55);
        border-radius: 50px;
-       margin: auto;
+      
    }
    .cantidad{
        width:80%;
@@ -176,16 +181,41 @@ section{
 }
 /*----------------------proyectos-----------------------*/
 #secProyectos{
-    background:url(../img/tex2res4.png);
+    background:url(../img/black_thread_@2X.png);
+    color: $letra-color;
+    padding: 5% 0;
     text-align: center;
-    padding: 10% 0%;
+    h1{
+        @include titulo;
+    }
+    .row{
+        margin-top:3%;
+    }
+    
     img{
-        width: 50%;
-        height: 200px;
+        width:80%;
+        height:50%;
+        border-top:5px solid #ff2b00;
+        border-bottom:5px solid #ff2b00;
+        padding:10px;
     }
 }
 
-/*----------------------contactame-------------------
+/*----------------------contactame-------------------*/
 #secContactame{
-    background:#900c3f;
-}*/
+    background:url(../img/black_thread_@2X.png);
+    color: $letra-color;
+    padding: 15% 0%;
+    .row{
+        margin-top:10%;
+    }
+    h1{
+        @include titulo;
+    }
+    .fondoContactame{
+        background: url(../img/greyfloral.png);
+        @include border;
+        padding: 30px;
+        
+    }
+}

@@ -1,9 +1,6 @@
 /*------------ESTILOS----DEFINIDOS----------DE-----SASS------*/
 /*---------------------------MIXINS---------------*/
 /*---------------------------ESTILOS GENERALES---------------*/
-* {
-  outline: 1px solid blue; }
-
 section {
   background: white;
   position: absolute;
@@ -76,11 +73,13 @@ section {
     opacity: none; }
   #sobreMi h1 {
     font-size: 80px;
-    font-family: "roboto";
+    font-family: 'Julius Sans One', sans-serif;
     color: #d65e45; }
   #sobreMi p {
     font-size: 20px;
     font-family: 'Roboto+Slab'; }
+  #sobreMi span {
+    color: #d65e45; }
 
 /*-----------------------habilidades-------------------*/
 #secHabilidades {
@@ -89,9 +88,9 @@ section {
   color: white;
   padding: 5% 0%; }
   #secHabilidades h1 {
-    font-size: 50px;
-    font-family: "roboto";
-    color: #d65e45; }
+    font-size: 80px;
+    font-family: 'Julius Sans One', sans-serif;
+    color: #f2713b; }
   #secHabilidades .html {
     border-radius: 100%;
     margin: 0 auto;
@@ -151,11 +150,9 @@ section {
       max-width: 100%; }
   #secHabilidades .nivelProgreso {
     width: 60%;
-    height: 10px;
     position: relative;
     background-color: rgba(255, 255, 255, 0.55);
-    border-radius: 50px;
-    margin: auto; }
+    border-radius: 50px; }
   #secHabilidades .cantidad {
     width: 80%;
     height: 10px;
@@ -164,16 +161,41 @@ section {
 
 /*----------------------proyectos-----------------------*/
 #secProyectos {
-  background: url(../img/tex2res4.png);
-  text-align: center;
-  padding: 10% 0%; }
+  background: url(../img/black_thread_@2X.png);
+  color: white;
+  padding: 5% 0;
+  text-align: center; }
+  #secProyectos h1 {
+    font-size: 80px;
+    font-family: 'Julius Sans One', sans-serif; }
+  #secProyectos .row {
+    margin-top: 3%; }
   #secProyectos img {
-    width: 50%;
-    height: 200px; }
+    width: 80%;
+    height: 50%;
+    border-top: 5px solid #ff2b00;
+    border-bottom: 5px solid #ff2b00;
+    padding: 10px; }
 
-/*----------------------contactame-------------------
-#secContactame{
-    background:#900c3f;
-}*/
+/*----------------------contactame-------------------*/
+#secContactame {
+  background: url(../img/black_thread_@2X.png);
+  color: white;
+  padding: 15% 0%; }
+  #secContactame .row {
+    margin-top: 10%; }
+  #secContactame h1 {
+    font-size: 80px;
+    font-family: 'Julius Sans One', sans-serif; }
+  #secContactame .fondoContactame {
+    background: url(../img/greyfloral.png);
+    border-radius: 100%;
+    margin: 0 auto;
+    padding: 20px;
+    width: 50%;
+    padding: 30px; }
+    #secContactame .fondoContactame img {
+      max-height: 120px;
+      max-width: 100%; }
 
 /*# sourceMappingURL=main.css.map */
