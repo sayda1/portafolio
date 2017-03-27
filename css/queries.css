@@ -13,8 +13,7 @@
     padding: 20% 0%;
     height: auto; }
     #sobreMi .imagen {
-      width: 166px;
-      top: 0; }
+      margin-top: 20px; }
     #sobreMi h1 {
       font-size: 52px; }
     #sobreMi p {
@@ -77,7 +76,7 @@
   #sobreMi {
     padding: 18% 0%; }
     #sobreMi .imagen {
-      margin-right: 50px; }
+      margin-top: 30px; }
     #sobreMi .col-md-6 {
       text-align: center; }
 

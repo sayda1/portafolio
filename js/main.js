@@ -6,41 +6,44 @@ function init(){
     $('#habilidades').click(navegaHabilidades);
     $('#proyectos').click(navegaProyectos);
     $('#contactame').click(naveContactame);
+    $('h1').addClass('animated infinite pulse');
 }
 //navegar a seciones
 function navegaInicio(){
-    $('#secContactame').hide(1800);
-    $('#secProyectos').hide(1800);
-    $('#secHabilidades').hide(1800);
-    $('#sobreMi').hide(1800);
+    $('#secContactame').hide(1000);
+    $('#secProyectos').hide(1000);
+    $('#secHabilidades').hide(1000);
+    $('#sobreMi').hide(1000);
     $('#secInicio').show(1800);
-    
 }
 function navegaSobreMi(){
-    $('#secContactame').hide(1800);
-    $('#secProyectos').hide(1800);
-    $('#secHabilidades').hide(1800);
-    $('#secInicio').hide(1800);
-    $('#sobreMi').show(1850);
+    $('#secContactame').hide(1000);
+    $('#secProyectos').hide(1000);
+    $('#secHabilidades').hide(1000);
+    $('#secInicio').hide(1000);
+    $('#sobreMi').show(1050);
 }
 function navegaHabilidades(){
-    $('#secContactame').hide(1800);
-    $('#secProyectos').hide(1800);
-    $('#secHabilidades').show(1800);
-    $('#secInicio').hide(1800);
-    $('#sobreMi').hide(1850);
+    $('#secContactame').hide(1000);
+    $('#secProyectos').hide(1000);
+    $('#secHabilidades').show(1000);
+    $('#secInicio').hide(1000);
+    $('#sobreMi').hide(1050);
 }
 function navegaProyectos(){
-    $('#secContactame').hide(1800);
+    $('#secContactame').hide(1000);
     $('#secProyectos').show(1800);
-    $('#secHabilidades').hide(1800);
-    $('#secInicio').hide(1800);
-    $('#sobreMi').hide(1850);
+    $('#secHabilidades').hide(1000);
+    $('#secInicio').hide(100);
+    $('#sobreMi').hide(1050);
 }
 function naveContactame(){
     $('#secContactame').show(1800);
-    $('#secProyectos').hide(1800);
-    $('#secHabilidades').hide(1800);
-    $('#secInicio').hide(1800);
-    $('#sobreMi').hide(1850);
+    $('#secProyectos').hide(1000);
+    $('#secHabilidades').hide(1000);
+    $('#secInicio').hide(1000);
+    $('#sobreMi').hide(1050);
+}
+function agregaAnimacion(){
+    $('#animacion').addClass('animated 0.5 bounceInDown');
 }
