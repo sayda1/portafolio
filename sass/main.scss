@@ -30,7 +30,9 @@ $border-radius:100%;
     font-family:'Roboto+Slab';
 }
 /*---------------------------ESTILOS GENERALES---------------*/
-
+*{
+    outline:1px solid blue;
+}
 section{
     background:white;
 	position:absolute;
@@ -50,7 +52,6 @@ section{
 }
 /*--------------------------header-----menu-----------------*/
 .navbar{
-    
     background:rgba(0, 0, 0, 0.2980);
     margin:0;
     border:none;
@@ -112,7 +113,6 @@ section{
         transform: scale(1.2s);
         transition: all 250ms ease-in-out;
         opacity: none;
-        
     }
     h1{
         @include titulo;
@@ -121,6 +121,8 @@ section{
     }
     p{
         @include parrafo;
+        transition: 2s;
+        transition-delay: 6s;
     }
     span{
         color: #d65e45;
@@ -150,7 +152,7 @@ section{
 }
 /*----------------------proyectos-----------------------*/
 #secProyectos{
-    background:url(../img/black_thread_@2X.png);
+    background:url(../img/black_mamba_@2X.png);
     color: $letra-color;
     padding: 5% 0;
     text-align: center;
@@ -198,9 +200,9 @@ section{
 }
 /*----------------------contactame-------------------*/
 #secContactame{
-    background:url(../img/black_thread_@2X.png);
+    background:url(../img/burried.png);
     color: $letra-color;
-    padding: 15% 0%;
+    padding: 10% 0%;
     .row{
         margin-top:10%;
     }

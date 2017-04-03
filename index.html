@@ -8,10 +8,10 @@
     <!-----------bootstrap------otros--util----------->
     <link rel="stylesheet" href="vendor/bootstrap.css">
     <link href="https://fonts.googleapis.com/css?family=Roboto+Slab" rel="stylesheet"> 
-    <link href="https://fonts.googleapis.com/css?family=Pacifico|Ubuntu|Ubuntu+Condensed" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Josefin+Sans|Julius+Sans+One|Poiret+One" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Pacifico|Ranga|Ubuntu|Ubuntu+Condensed" rel="stylesheet">
     <link rel="stylesheet" href="vendor/animate.css">
+    <link rel="stylesheet" href="vendor/style.css">
     <!-----------estilos----------------------->
      <link rel="stylesheet" href="css/main.css">
     <!----------responsive----------------------->
@@ -34,7 +34,7 @@
                 <li id="sobre-mi"><a href="#">SOBRE MI</a></li>
                 <li id="habilidades"><a href="#">HABILIDADES</a></li>
                 <li id="proyectos"><a href="#">PROYECTOS</a></li>
-                <li id="contactame" style="color:white"><a href="#">CONTACTAME</a></li>
+                <li id="contactame"><a href="#">CONTACTAME</a></li>
               </ul>
             </div>
             </div>    
@@ -60,11 +60,11 @@
                 <div class="col-md-6">
                     <div id="animacion">
                         <p>¡Hola! Mi nombre es Sayda Flor Quitanilla Huillca y soy Web Front-End Developer.</p>
-                        <p>Considero que programar es hacer magia con las manos y disfruto mucho hacerlo. Aprender el lenguaje que la mas màquinas nos abre paso a un mundo muy emocionante de muchas posibilidades.</p>
+                        <p>Considero que programar es hacer magia con las manos y disfruto mucho hacerlo. Aprender el lenguaje de la màquinas nos abre paso a un mundo muy emocionante de muchas posibilidades.</p>
                         <p>En Laboratoria aprendì muchas cosas como a trabajar en equipo, adaptarme a cambios, a seguir mi curiosidad para aprender y tambien a superarme como persona.</p>
                     </div>
                 </div>
-               <div class=" col-md-6 text-center">
+               <div class="col-md-6 text-center">
                    <img src="img/perfil.png" alt="" class="imagen">
                </div>
             </div>
@@ -75,16 +75,16 @@
     </section>
     <!----------------------------------HABILIDADES--HTML----------->
     <section id="secHabilidades">
-        <div class="">
+        <div class="grid figure h2">
             <div class="container">
                <h1>Habilidades</h1>
-            <br>
+               <br>
                 <div class="row">
                     <div class="col-md-4 col-xs-6">
                        <div class="habilidad">
                            <img src="img/html5.png" alt="">
                        </div>
-                         <br>   
+                        <br>   
                         <div class="progress">
                          <div class="progress-bar progress-bar-striped active"  aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style=" width:100%;">100%</div>
                         </div>
@@ -141,100 +141,94 @@
     </section>    
     <!----------------------------------PROYECTOS--------------------> 
     <section id="secProyectos">
-        <div class="">
-            <div class="container">
-               <h1 class="text-center">Proyectos</h1>
-                <div class="row">
-                    <div class="col-md-4">
-                       <div class="box">
-                            <img src="img/watsap.png" alt="" >
-                            <div class="overlay text-center">
-                                <b>Whatsapp</b>
-                                <p>hermientas</p>
-                                <p>html , css, javaScript</p>
-                                <a href="https://sayda1.github.io/whatsapp_chat/           " type="button">ver</a>
-                            </div>
-                       </div>
-                       
-                    </div>
-                    <div class="col-md-4">
-                       <div class="box">
-                           <img src="img/appTodo.png" alt="">
-                            <div class="overlay text-center">
-                                <b>TodoApp</b>
-                                <p>hermientas</p>
-                                <p>html , css, javaScript</p>
-                                <a href="https://sayda1.github.io/Ejercicio-Twitter/" type="button">ver</a>
-                            </div>
-                       </div>
-                        
-                    </div>
-                    <div class="col-md-4">
-                      <div class="box">
-                          <img src="img/gato.png" alt="">
-                          <div class="overlay text-center">
-                                <b>GATO LOCO</b>
-                                <p>hermientas</p>
-                                <p>html , css, jquery</p>
-                               <a href="">ver</a>
-                          </div>
-                      </div>
-                       
-                    </div>
+        <div class="container">
+           <h1 class="text-center">Proyectos</h1>
+            <div class="row">
+                <div class="col-md-4">
+                   <div class="box">
+                        <img src="img/watsap.png" alt="" >
+                        <div class="overlay text-center">
+                            <b>Whatsapp</b>
+                            <p>hermientas</p>
+                            <p>html , css, javaScript</p>
+                          <a href="https://sayda1.github.io/whatsapp_chat/" type="button">ver</a>
+                        </div>
+                   </div>
                 </div>
-                <br>
-                <div class="row">
-                   <div class="col-md-4">
-                       <div class="box">
-                           <img src="img/lif.png" alt="">
-                           <div class="overlay">
-                                <b>LYFT</b>
-                                <p>hermientas</p>
-                                <p>html , css, jquery</p>
-                                <a href="">ver</a>
-                           </div>
-                          
+                <div class="col-md-4">
+                   <div class="box">
+                       <img src="img/appTodo.png" alt="">
+                        <div class="overlay text-center">
+                            <b>TodoApp</b>
+                            <p>hermientas</p>
+                            <p>html , css, javaScript</p>
+                            <a href="https://sayda1.github.io/Ejercicio-Twitter/" type="button">ver</a>
+                        </div>
+                   </div>
+                </div>
+                <div class="col-md-4">
+                  <div class="box">
+                      <img src="img/gato.png" alt="">
+                      <div class="overlay text-center">
+                            <b>GATO LOCO</b>
+                            <p>hermientas</p>
+                            <p>html , css, jquery</p>
+                           <a href="">ver</a>
+                      </div>
+                  </div>
+                </div>
+            </div>
+            <br>
+            <div class="row">
+               <div class="col-md-4">
+                   <div class="box">
+                       <img src="img/lif.png" alt="">
+                       <div class="overlay">
+                            <b>LYFT</b>
+                            <p>hermientas</p>
+                            <p>html , css, jquery</p>
+                            <a href="">ver</a>
                        </div>
                    </div>
-                    <div class="col-md-4">
-                        <div class="box">
-                          <img src="img/buny2.png" alt="">
-                          <div class="overlay">
-                               <b>SOFT BUNNY</b>
-                                <p>hermientas</p>
-                                <p>html , css</p>
-                                <a href="https://sayda1.github.io/-Bunny-Love/">ver</a>
-                          </div>
-                        </div>                       
-                    </div>
-                    <div class="col-md-4">
-                       <div class="fondoImg">
-                           <img src="img/flores.png" alt="">
-                            <div class="overlay">
-                                <b>SPRING CAME</b>
-                                <p>hermientas</p>
-                                <p>html , css</p>
-                                <a href="https://sayda1.github.io/Responsive-Blog/">ver</a>
-                            </div>
-                       </div>                        
-                    </div>
+               </div>
+                <div class="col-md-4">
+                    <div class="box">
+                      <img src="img/buny2.png" alt="">
+                      <div class="overlay">
+                           <b>SOFT BUNNY</b>
+                            <p>hermientas</p>
+                            <p>html , css</p>
+                            <a href="https://sayda1.github.io/-Bunny-Love/">ver</a>
+                      </div>
+                    </div>                       
+                </div>
+                <div class="col-md-4">
+                   <div class="fondoImg">
+                       <img src="img/flores.png" alt="">
+                        <div class="overlay">
+                            <b>SPRING CAME</b>
+                            <p>hermientas</p>
+                            <p>html , css</p>
+                            <a href="https://sayda1.github.io/Responsive-Blog/">ver</a>
+                        </div>
+                   </div>                        
                 </div>
             </div>
         </div>
+
     </section>
     <!----------------------------------CONTACTAME--------------------> 
-    <section id="secContactame">
-        <div class="">          
-            <div class="container">
-             <h1 class="text-center">Contactame</h1>
-              <div class="row">
-                  
-                  <div class="col-md-4">
-                  <div class="fondoContactame">
-                      <a href="">
-                           <img src="img/mail.png" alt="" style="width:90%">
-                      </a>
-                  </div>                  
+    <section id="secContactame">          
+        <div class="container">
+         <h1 class="text-center">Contactame</h1>
+           <p class="text-center">flor.huillca123@gmail.com</p>
+            <div class="row">
+               <div class="col-md-4">
+                      <div class="fondoContactame">
+                          <a href="">
+                               <img src="img/mail.png" alt="" style="width:90%">
+                          </a>
+                      </div>                  
                </div>
                <div class="col-md-4">
                   <div class="fondoContactame">
@@ -250,8 +244,6 @@
                        </a>
                     </div>
                </div>
-              </div>
-               
             </div>
         </div>
     </section>   
