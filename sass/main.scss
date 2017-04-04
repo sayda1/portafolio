@@ -196,10 +196,11 @@ section{
 }
 /*----------------------contactame-------------------*/
 #secContactame{
-    background:url(../img/burried.png);
+    background:url(../img/wood_1.png);
     color: $letra-color;
     padding: 10% 0%;
-    
+    height: auto;
+    font-family: $segunda-letra;
     .row{
         margin-top:10%;
     }
@@ -208,8 +209,5 @@ section{
     }
     .fondoContactame{
         @include border;
-    }
-    p{
-       
     }
 }

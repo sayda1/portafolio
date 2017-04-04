@@ -145,9 +145,11 @@ section {
 
 /*----------------------contactame-------------------*/
 #secContactame {
-  background: url(../img/burried.png);
+  background: url(../img/wood_1.png);
   color: #ffffff;
-  padding: 10% 0%; }
+  padding: 10% 0%;
+  height: auto;
+  font-family: "roboto"; }
   #secContactame .row {
     margin-top: 10%; }
   #secContactame h1 {
