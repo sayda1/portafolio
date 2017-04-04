@@ -30,9 +30,7 @@ $border-radius:100%;
     font-family:'Roboto+Slab';
 }
 /*---------------------------ESTILOS GENERALES---------------*/
-*{
-    outline:1px solid blue;
-}
+
 section{
     background:white;
 	position:absolute;
@@ -121,8 +119,6 @@ section{
     }
     p{
         @include parrafo;
-        transition: 2s;
-        transition-delay: 6s;
     }
     span{
         color: #d65e45;
@@ -203,6 +199,7 @@ section{
     background:url(../img/burried.png);
     color: $letra-color;
     padding: 10% 0%;
+    
     .row{
         margin-top:10%;
     }
@@ -210,9 +207,9 @@ section{
         @include titulo;
     }
     .fondoContactame{
-        background: url(../img/greyfloral.png);
         @include border;
-        padding: 30px;
-        
+    }
+    p{
+       
     }
 }

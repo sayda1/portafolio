@@ -1,9 +1,6 @@
 /*------------ESTILOS----DEFINIDOS----------DE-----SASS------*/
 /*---------------------------MIXINS---------------*/
 /*---------------------------ESTILOS GENERALES---------------*/
-* {
-  outline: 1px solid blue; }
-
 section {
   background: white;
   position: absolute;
@@ -80,9 +77,7 @@ section {
     color: #d65e45; }
   #sobreMi p {
     font-size: 20px;
-    font-family: 'Roboto+Slab';
-    transition: 2s;
-    transition-delay: 6s; }
+    font-family: 'Roboto+Slab'; }
   #sobreMi span {
     color: #d65e45; }
 
@@ -159,12 +154,10 @@ section {
     font-size: 80px;
     font-family: 'Julius Sans One', sans-serif; }
   #secContactame .fondoContactame {
-    background: url(../img/greyfloral.png);
     border-radius: 100%;
     margin: 0 auto;
     padding: 20px;
-    width: 50%;
-    padding: 30px; }
+    width: 50%; }
     #secContactame .fondoContactame img {
       max-height: 120px;
       max-width: 100%; }
