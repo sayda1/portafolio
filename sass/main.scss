@@ -37,7 +37,7 @@ section{
 	width:$ancho-seciones;
 	left:0;
 	display:none;
-    height:auto;
+    height:$altura-seciones;
 }
 .content{
     background:rgba(39, 38, 38, 0.29);
@@ -152,7 +152,7 @@ section{
     color: $letra-color;
     padding: 5% 0;
     text-align: center;
-    
+    height: auto;
     h1{
         @include titulo;
     }
