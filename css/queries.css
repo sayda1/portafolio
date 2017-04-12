@@ -36,11 +36,10 @@
     #secProyectos h1 {
       font-size: 45px; }
 
-  #secContactame h1 {
-    font-size: 45px; }
-  #secContactame .fondoContactame {
-    width: 40%;
-    margin: 11px auto; } }
+  #secContactame {
+    height: auto; }
+    #secContactame h1 {
+      font-size: 45px; } }
 @media (max-width: 568px) and (min-width: 320px) {
   #secInicio .sayda {
     background: rgba(10, 10, 10, 0.51);
@@ -86,9 +85,7 @@
   #secProyectos {
     height: auto; }
 
-  #secContactame .fondoContactame {
-    width: 43%;
-    margin: 23px auto;
-    text-align: center; } }
+  #secContactame {
+    height: auto; } }
 
 /*# sourceMappingURL=queries.css.map */
