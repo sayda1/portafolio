@@ -1,49 +1,172 @@
-/*
-Error: Invalid CSS after "... $segunda-letra": expected "{", was ";"
-        on line 209 of main.scss
+/*------------ESTILOS----DEFINIDOS----------DE-----SASS------*/
+/*---------------------------MIXINS---------------*/
+/*---------------------------ESTILOS GENERALES---------------*/
+body {
+  color: transparent; }
 
-204:     padding: 10% 0%;
-205: <<<<<<< HEAD
-206: =======
-207:     
-208: >>>>>>> 04470ac6c7899cd583bd79846c48ff0971dec63f
-209:     font-family: $segunda-letra;
-210:     .row{
-211:         margin-top:10%;
-212:     }
-213:     h1{
-214:         @include titulo;
+section {
+  background: white;
+  position: absolute;
+  width: 100%;
+  left: 0;
+  display: none;
+  height: 100%; }
 
-Backtrace:
-main.scss:209
-C:/Ruby23/lib/ruby/gems/2.3.0/gems/sass-3.4.23/lib/sass/scss/parser.rb:1207:in `expected'
-C:/Ruby23/lib/ruby/gems/2.3.0/gems/sass-3.4.23/lib/sass/scss/parser.rb:1137:in `expected'
-C:/Ruby23/lib/ruby/gems/2.3.0/gems/sass-3.4.23/lib/sass/scss/parser.rb:1132:in `tok!'
-C:/Ruby23/lib/ruby/gems/2.3.0/gems/sass-3.4.23/lib/sass/scss/parser.rb:665:in `block'
-C:/Ruby23/lib/ruby/gems/2.3.0/gems/sass-3.4.23/lib/sass/scss/parser.rb:735:in `declaration_or_ruleset'
-C:/Ruby23/lib/ruby/gems/2.3.0/gems/sass-3.4.23/lib/sass/scss/parser.rb:685:in `block_child'
-C:/Ruby23/lib/ruby/gems/2.3.0/gems/sass-3.4.23/lib/sass/scss/parser.rb:677:in `block_contents'
-C:/Ruby23/lib/ruby/gems/2.3.0/gems/sass-3.4.23/lib/sass/scss/parser.rb:666:in `block'
-C:/Ruby23/lib/ruby/gems/2.3.0/gems/sass-3.4.23/lib/sass/scss/parser.rb:658:in `ruleset'
-C:/Ruby23/lib/ruby/gems/2.3.0/gems/sass-3.4.23/lib/sass/scss/parser.rb:684:in `block_child'
-C:/Ruby23/lib/ruby/gems/2.3.0/gems/sass-3.4.23/lib/sass/scss/parser.rb:677:in `block_contents'
-C:/Ruby23/lib/ruby/gems/2.3.0/gems/sass-3.4.23/lib/sass/scss/parser.rb:125:in `stylesheet'
-C:/Ruby23/lib/ruby/gems/2.3.0/gems/sass-3.4.23/lib/sass/scss/parser.rb:41:in `parse'
-C:/Ruby23/lib/ruby/gems/2.3.0/gems/sass-3.4.23/lib/sass/engine.rb:406:in `_to_tree'
-C:/Ruby23/lib/ruby/gems/2.3.0/gems/sass-3.4.23/lib/sass/engine.rb:381:in `_render_with_sourcemap'
-C:/Ruby23/lib/ruby/gems/2.3.0/gems/sass-3.4.23/lib/sass/engine.rb:298:in `render_with_sourcemap'
-C:/Ruby23/lib/ruby/gems/2.3.0/gems/sass-3.4.23/lib/sass/plugin/compiler.rb:492:in `update_stylesheet'
-C:/Ruby23/lib/ruby/gems/2.3.0/gems/sass-3.4.23/lib/sass/plugin/compiler.rb:215:in `block in update_stylesheets'
-C:/Ruby23/lib/ruby/gems/2.3.0/gems/sass-3.4.23/lib/sass/plugin/compiler.rb:209:in `each'
-C:/Ruby23/lib/ruby/gems/2.3.0/gems/sass-3.4.23/lib/sass/plugin/compiler.rb:209:in `update_stylesheets'
-C:/Ruby23/lib/ruby/gems/2.3.0/gems/sass-3.4.23/lib/sass/plugin/compiler.rb:473:in `on_file_changed'
-C:/Ruby23/lib/ruby/gems/2.3.0/gems/sass-3.4.23/lib/sass/plugin/compiler.rb:331:in `block in watch'
-C:/Ruby23/lib/ruby/gems/2.3.0/gems/sass-3.4.23/vendor/listen/lib/listen/listener.rb:252:in `on_change'
-C:/Ruby23/lib/ruby/gems/2.3.0/gems/sass-3.4.23/vendor/listen/lib/listen/listener.rb:290:in `block in initialize_adapter'
-C:/Ruby23/lib/ruby/gems/2.3.0/gems/sass-3.4.23/vendor/listen/lib/listen/adapters/polling.rb:48:in `poll_changed_directories'
-C:/Ruby23/lib/ruby/gems/2.3.0/gems/sass-3.4.23/vendor/listen/lib/listen/adapter.rb:299:in `block in start_poller'
-*/
-body:before {
-  white-space: pre;
-  font-family: monospace;
-  content: "Error: Invalid CSS after \"... $segunda-letra\": expected \"{\", was \";\"\A         on line 209 of main.scss\A \A 204:     padding: 10% 0%;\A 205: <<<<<<< HEAD\A 206: =======\A 207:     \A 208: >>>>>>> 04470ac6c7899cd583bd79846c48ff0971dec63f\A 209:     font-family: $segunda-letra;\A 210:     .row{\A 211:         margin-top:10%;\A 212:     }\A 213:     h1{\A 214:         @include titulo;"; }
+.content {
+  background: rgba(39, 38, 38, 0.29);
+  position: absolute;
+  width: 100%;
+  height: 100%; }
+
+.visible {
+  display: block; }
+
+/*--------------------------header-----menu-----------------*/
+.navbar {
+  background: rgba(0, 0, 0, 0.298);
+  margin: 0;
+  border: none;
+  border-radius: 0;
+  position: fixed;
+  z-index: 99;
+  width: 100%; }
+  .navbar .nav li a {
+    color: #ffffff;
+    font-family: "roboto";
+    font-size: 15px; }
+    .navbar .nav li a:hover, .navbar .nav li a:focus {
+      background: #e01e1e; }
+  .navbar .navbar-toggle {
+    color: #ffffff;
+    border: 1px solid #ffffff; }
+
+/*-----------------------inicio---foto---------------------*/
+#secInicio {
+  background-image: url(../img/fondo.JPG);
+  background-position: center;
+  background-position: top;
+  background-size: cover;
+  color: #d5e0e3; }
+  #secInicio .sayda {
+    position: absolute;
+    width: 40%;
+    top: 30%;
+    right: 58%; }
+  #secInicio h1 {
+    font-size: 80px;
+    font-family: "Ranga", cursive; }
+  #secInicio h2 {
+    font-size: 80px -20px;
+    font-family: "roboto"; }
+
+/*-----------------sobre-----mi-------------------------*/
+#sobreMi {
+  color: #86675c;
+  position: absolute;
+  background-image: url(../img/symphony.png);
+  padding: 8% 0%; }
+  #sobreMi .imagen {
+    border-radius: 15px;
+    height: 248px;
+    box-shadow: 3px 2px 2px 2px #9d967a;
+    opacity: 0.9; }
+  #sobreMi .imagen:hover {
+    transform: scale(1.2s);
+    transition: all 250ms ease-in-out;
+    opacity: none; }
+  #sobreMi h1 {
+    font-size: 80px;
+    font-family: 'Julius Sans One', sans-serif;
+    color: #d65e45; }
+  #sobreMi p {
+    font-size: 20px;
+    font-family: 'Roboto+Slab'; }
+  #sobreMi span {
+    color: #d65e45; }
+
+/*-----------------------habilidades-------------------*/
+#secHabilidades {
+  background: url(../img/eight_horns.png);
+  text-align: center;
+  color: white;
+  padding: 5% 0%; }
+  #secHabilidades h1 {
+    font-size: 80px;
+    font-family: 'Julius Sans One', sans-serif;
+    color: #76aee6; }
+  #secHabilidades .habilidad {
+    border-radius: 100%;
+    margin: 0 auto;
+    padding: 20px;
+    width: 50%;
+    border: 2px solid #76aee6; }
+    #secHabilidades .habilidad img {
+      max-height: 120px;
+      max-width: 100%; }
+  #secHabilidades .progress {
+    border: 1px solid #76aee6; }
+  #secHabilidades .sass {
+    margin-top: 20px; }
+
+/*----------------------proyectos-----------------------*/
+#secProyectos {
+  background: url(../img/black_mamba_@2X.png);
+  color: #ffffff;
+  padding: 5% 0;
+  text-align: center;
+  height: auto; }
+  #secProyectos h1 {
+    font-size: 80px;
+    font-family: 'Julius Sans One', sans-serif; }
+  #secProyectos .row {
+    margin-top: 3%; }
+  #secProyectos img {
+    width: 90%;
+    height: 80%;
+    padding: 10px; }
+  #secProyectos .overlay {
+    position: absolute;
+    width: 90%;
+    height: 100%;
+    bottom: 1%;
+    left: 5%;
+    padding: 10px;
+    color: transparent; }
+    #secProyectos .overlay a {
+      font-size: 25px;
+      padding: 10px;
+      color: transparent; }
+      #secProyectos .overlay a:hover {
+        color: #ffffff;
+        border: 2px solid #fff;
+        border-radius: 7px;
+        color: #ffffff; }
+    #secProyectos .overlay:hover {
+      background-color: rgba(224, 30, 30, 0.49);
+      border: 2px solid red;
+      font-size: 20px;
+      color: #ffffff; }
+
+/*----------------------contactame-------------------*/
+#secContactame {
+  background: url(../img/txture.png);
+  padding: 10% 0%;
+  font-family: "roboto"; }
+  #secContactame .row {
+    margin-top: 10%; }
+  #secContactame h1 {
+    font-size: 80px;
+    font-family: 'Julius Sans One', sans-serif;
+    color: #ffffff; }
+  #secContactame h3 {
+    color: #ffffff; }
+  #secContactame .fondoContactame {
+    border-radius: 100%;
+    margin: 0 auto;
+    padding: 20px;
+    width: 50%; }
+    #secContactame .fondoContactame img {
+      max-height: 120px;
+      max-width: 100%; }
+
+/*# sourceMappingURL=main.css.map */

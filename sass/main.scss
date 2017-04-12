@@ -30,9 +30,6 @@ $border-radius:100%;
     font-family:'Roboto+Slab';
 }
 /*---------------------------ESTILOS GENERALES---------------*/
-*{
-    outline: 1px solid blue;
-}
 body{
     color: transparent;
 }
@@ -202,10 +199,6 @@ section{
 #secContactame{
     background:url(../img/txture.png);
     padding: 10% 0%;
-<<<<<<< HEAD
-=======
-    
->>>>>>> 04470ac6c7899cd583bd79846c48ff0971dec63f
     font-family: $segunda-letra;
     .row{
         margin-top:10%;
