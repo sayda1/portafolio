@@ -11,6 +11,7 @@
   <link href="https://fonts.googleapis.com/css?family=Josefin+Sans|Julius+Sans+One|Poiret+One" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Pacifico|Ranga|Ubuntu|Ubuntu+Condensed" rel="stylesheet">
   <link rel="stylesheet" href="vendor/animate.css">
+  <link rel="stylesheet" href="vendor/demo.css">
   <!-----------estilos------------------------>
    <link rel="stylesheet" href="css/main.css">
   <!----------responsive------------------------>
@@ -32,7 +33,7 @@
               <li id="sobre-mi"><a href="#">SOBRE MI</a></li>
               <li id="habilidades"><a href="#">HABILIDADES</a></li>
               <li id="proyectos"><a href="#">PROYECTOS</a></li>
-              <li id="contactame"><a href="#">CONTACTAME</a></li>
+              <li id="contactame"><a href="#">CONTÁCTAME</a></li>
             </ul>
           </div>
           </div>    
@@ -68,8 +69,10 @@
                       aprender y tambien a superarme como persona.</p>
                   </div>
               </div>
+              
              <div class="col-md-6 text-center">
-                 <img src="img/perfil.png" alt="" class="imagen">
+               <img src="img/perfil.png" alt="Image" class="imagen">
+               
              </div>
           </div>
           <br>
@@ -85,7 +88,7 @@
           <div class="row">
             <div class="col-md-4 col-xs-6">
              <div class="habilidad">
-                <img src="img/html5.png" alt="">
+                    <img src="img/html5.png" alt="">
              </div>
               <br>   
               <div class="progress">
@@ -215,36 +218,115 @@
   <!----------------------------------CONTACTAME--------------------> 
   <section id="secContactame">          
       <div class="container">
-       <h1 class="text-center">Contactame</h1>
-       <h4 class="text-center">flor.huillca123@gmail.com</h4>
+       <h1 class="text-center">Contáctame</h1>
+       <h3 class="text-center">flor.huillca123@gmail.com</h3>
           <div class="row">
              <div class="col-md-4">
-                    <div class="fondoContactame">
-                        <a href="main.html">
-                             <br>
-                             <img src="img/gmail.png" alt="">
-                        </a>
-                    </div>                  
-             </div>
-             <div class="col-md-4">
-                <div class="fondoContactame">
-                     <a href="https://www.linkedin.com/in/sayda-flor-quintanilla-huillca-a4a557138/">
-                         <img src="img/linkedin.png" alt="" >
-                     </a>                        
+                <div class="grid grid--effect-deneb">
+                <div href="#" class="grid__item grid__item--c3">
+                    <div class="stack">
+                        <div class="stack__deco"></div>
+                        <div class="stack__deco"></div>
+                        <div class="stack__deco"></div>
+                        <div class="stack__deco"></div>
+                        <div class="stack__figure">
+                            <img class="stack__img" src="img/gmail.png" alt="Image"  style="width:180px">
+                        </div>
+                    </div>
+                    <div class="grid__item-caption">
+                        <div class="column column--left">
+                        </div>
+                        <div class="column column--right">
+                        </div>
+                    </div>
                 </div>
+                </div>                 
              </div>
+            <div class="col-md-4">
+               <div class="grid grid--effect-deneb">
+                <div href="#" class="grid__item grid__item--c3">
+                    <div class="stack">
+                        <div class="stack__deco"></div>
+                        <div class="stack__deco"></div>
+                        <div class="stack__deco"></div>
+                        <div class="stack__deco"></div>
+                        <div class="stack__figure">
+                            <a href="https://github.com/sayda1">
+                              <img class="stack__img" src="img/github.png" alt="Image"  style="width:160px">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="grid__item-caption">
+                        <div class="column column--left"></div>
+                        <div class="column column--right"></div>
+                    </div>
+                </div>
+                </div>
+            </div>
              <div class="col-md-4">
-                  <div class="fondoContactame">
-                     <a href="https://github.com/sayda1">
-                          <img src="img/github.png" alt="">
-                     </a>
-                  </div>
+               <div class="grid grid--effect-deneb">
+                <div href="#" class="grid__item grid__item--c3">
+                    <div class="stack">
+                        <div class="stack__deco"></div>
+                        <div class="stack__deco"></div>
+                        <div class="stack__deco"></div>
+                        <div class="stack__deco"></div>
+                        <div class="stack__figure">
+                            <a href="https://www.linkedin.com/in/sayda-flor-quintanilla-huillca-a4a557138/">
+                              <img class="stack__img" src="img/linkedin.png" alt="Image"  style="width:130px">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="grid__item-caption">
+                        <div class="column column--left"></div>
+                        <div class="column column--right"></div>
+                    </div>
+                </div>
+                </div>
              </div>
           </div>
       </div>
   </section>   
 </body>
+<script>document.documentElement.className = 'js';</script>
 <script src="js/jquery-3.1.1.min.js"></script>
+<script src="js/anime.min.js"></script>
+<script src="js/animacion.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 <script type="text/javascript" src="js/main.js"></script>
+<!-------------------SCRIPT DE ANIMACIONES----------------------->
+<script>
+    (function() {
+        [].slice.call(document.querySelectorAll('.grid--effect-vega > .grid__item')).forEach(function(stackEl) {
+            new VegaFx(stackEl);
+        });
+        [].slice.call(document.querySelectorAll('.grid--effect-castor > .grid__item')).forEach(function(stackEl) {
+            new CastorFx(stackEl);
+        });
+        [].slice.call(document.querySelectorAll('.grid--effect-hamal > .grid__item')).forEach(function(stackEl) {
+            new HamalFx(stackEl);
+        });
+        [].slice.call(document.querySelectorAll('.grid--effect-polaris > .grid__item')).forEach(function(stackEl) {
+            new PolarisFx(stackEl);
+        });
+        [].slice.call(document.querySelectorAll('.grid--effect-alphard > .grid__item')).forEach(function(stackEl) {
+            new AlphardFx(stackEl);
+        });
+        [].slice.call(document.querySelectorAll('.grid--effect-altair > .grid__item')).forEach(function(stackEl) {
+            new AltairFx(stackEl);
+        });
+        [].slice.call(document.querySelectorAll('.grid--effect-rigel > .grid__item')).forEach(function(stackEl) {
+            new RigelFx(stackEl);
+        });
+        [].slice.call(document.querySelectorAll('.grid--effect-canopus > .grid__item')).forEach(function(stackEl) {
+            new CanopusFx(stackEl);
+        });
+        [].slice.call(document.querySelectorAll('.grid--effect-pollux > .grid__item')).forEach(function(stackEl) {
+            new PolluxFx(stackEl);
+        });
+        [].slice.call(document.querySelectorAll('.grid--effect-deneb > .grid__item')).forEach(function(stackEl) {
+            new DenebFx(stackEl);
+        });
+    })();
+</script>
 </html>

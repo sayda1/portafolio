@@ -1,6 +1,12 @@
 /*------------ESTILOS----DEFINIDOS----------DE-----SASS------*/
 /*---------------------------MIXINS---------------*/
 /*---------------------------ESTILOS GENERALES---------------*/
+* {
+  outline: 1px solid blue; }
+
+body {
+  color: transparent; }
+
 section {
   background: white;
   position: absolute;
@@ -145,16 +151,17 @@ section {
 
 /*----------------------contactame-------------------*/
 #secContactame {
-  background: url(../img/wood_1.png);
-  color: #ffffff;
+  background: url(../img/txture.png);
   padding: 10% 0%;
-  height: auto;
   font-family: "roboto"; }
   #secContactame .row {
     margin-top: 10%; }
   #secContactame h1 {
     font-size: 80px;
-    font-family: 'Julius Sans One', sans-serif; }
+    font-family: 'Julius Sans One', sans-serif;
+    color: #ffffff; }
+  #secContactame h3 {
+    color: #ffffff; }
   #secContactame .fondoContactame {
     border-radius: 100%;
     margin: 0 auto;

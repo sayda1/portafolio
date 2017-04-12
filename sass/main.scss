@@ -30,7 +30,12 @@ $border-radius:100%;
     font-family:'Roboto+Slab';
 }
 /*---------------------------ESTILOS GENERALES---------------*/
-
+*{
+    outline: 1px solid blue;
+}
+body{
+    color: transparent;
+}
 section{
     background:white;
 	position:absolute;
@@ -192,20 +197,21 @@ section{
             color: $letra-color;
         }
     }
-    
 }
 /*----------------------contactame-------------------*/
 #secContactame{
-    background:url(../img/wood_1.png);
-    color: $letra-color;
+    background:url(../img/txture.png);
     padding: 10% 0%;
-    height: auto;
     font-family: $segunda-letra;
     .row{
         margin-top:10%;
     }
     h1{
         @include titulo;
+        color: $letra-color;
+    }
+    h3{
+       color: $letra-color;  
     }
     .fondoContactame{
         @include border;

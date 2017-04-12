@@ -22,7 +22,6 @@ function navegaSobreMi(){
     $('#secHabilidades').hide(1000);
     $('#secInicio').hide(1000);
     $('#sobreMi').show(1050);
-    agregaAnimacion();
 }
 function navegaHabilidades(){
     $('#secContactame').hide(1000);
