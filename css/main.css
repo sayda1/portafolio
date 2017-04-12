@@ -7,7 +7,7 @@ section {
   width: 100%;
   left: 0;
   display: none;
-  height: auto; }
+  height: 100%; }
 
 .content {
   background: rgba(39, 38, 38, 0.29);
