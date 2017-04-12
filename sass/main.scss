@@ -157,7 +157,7 @@ section{
     color: $letra-color;
     padding: 5% 0;
     text-align: center;
-    
+    height: auto;
     h1{
         @include titulo;
     }
@@ -202,6 +202,10 @@ section{
 #secContactame{
     background:url(../img/txture.png);
     padding: 10% 0%;
+<<<<<<< HEAD
+=======
+    
+>>>>>>> 04470ac6c7899cd583bd79846c48ff0971dec63f
     font-family: $segunda-letra;
     .row{
         margin-top:10%;
